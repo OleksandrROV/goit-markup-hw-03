@@ -21,6 +21,7 @@ body {
     --main-order-service: #2196F3;
     --main-background: #2F303A;
     --main-navi-btn-background: #F5F4FA;
+    --border-color-cards: #eeeeee;
     --raleway: 'raleway', sans-serif;
     --roboto: 'roboto', sans-serif
 }
@@ -521,7 +522,12 @@ img {
 
 /* ---------------Portfolio------------- */
 
-.progect-description {}
+.progect-description {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--border-color-cards);
+    border-right: 1px solid var(--border-color-cards);
+    border-left: 1px solid var(--border-color-cards);
+}
 
 .portfolio {
     margin-right: auto;
@@ -539,15 +545,49 @@ img {
     color: #ffffff;
 }
 
-.Portfolio-title {}
+.portfolio-title {
+    color: var(--main-subtitle-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+}
 
-.Portfolio-list {}
+.portfolio-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 
-.Portfolio-project {}
+}
 
-.Portfolio-images {}
+.portfolio-list>.we-do-photo {
+    display: inline-block;
+    flex-basis: calc(100% /3-30px);
+    max-width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
 
-.Portfolio-sub-title {
+.portfolio-list>.we-do-photo:nth-child(3n) {
+    margin-right: 0;
+}
+
+.portfolio-list>.we-do-photo:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.portfolio-project {
+    display: inline-block;
+    flex-basis: calc(100%/3-30px);
+    max-width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.portfolio-images {}
+
+.portfolio-sub-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -556,7 +596,7 @@ img {
 
 }
 
-.Portfolio-text {
+.portfolio-text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
