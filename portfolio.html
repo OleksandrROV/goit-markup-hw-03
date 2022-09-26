@@ -6,42 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
     <!-- Шапка -->
     <header class="header">
-        <div class="container">
-            <nav class="header-navigation">
-                <a class="header-logo link-text" href="./index.html">Web<span class="header-studio">Studio</span></a>
-                <ul class="header-list list-styles ">
-                    <li class="header-item"><a class="header-link link-text " href="./index.html">Студія</a></li>
-                    <li class="header-item"><a class="header-link link-text current"
-                            href="./portfolio.html">Портфоліо</a>
+        <div class="container ">
+            <section class="main-nav">
+                <nav class="header-navigation">
+                    <a class="header-logo link-text" href="./index.html">Web<span
+                            class="header-studio">Studio</span></a>
+                    <ul class="header-list list-styles">
+                        <li class="header-item"><a class="header-link link-text current" href="./index.html">Студія</a>
+                        </li>
+                        <li class="header-item">
+                            <a class="header-link link-text" href="./portfolio.html">Портфоліо</a>
+                        </li>
+                        <li class="header-item"><a class="header-link link-text" href="">Контакти</a></li>
+                    </ul>
+                </nav>
+                <ul class="header-contact list-styles">
+                    <li>
+                        <a class="header-mail header-link link-text"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
-                    <li class="header-item"><a class="header-link link-text" href="">Контакти</a></li>
+                    <li>
+                        <a class="header-tel header-link link-text" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
                 </ul>
-            </nav>
-            <ul class="header-contact list-styles">
-                <li>
-                    <a class="header-mail header-link link-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="header-tel header-link link-text" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
+            </section>
         </div>
     </header>
     <!-- секція 1 -->
     <main>
-        <section>
+        <section class="portfolio">
             <div class="container">
                 <ul class="navi-list list-styles link-text">
                     <li class="list-btn">
@@ -65,58 +70,77 @@
                     <li class="Portfolio-project">
                         <img class="Portfolio-images" src="./images-portfiio/img1.jpg" alt="Технокряк" width="370"
                             height="294">
-                        <h2 class="Portfolio-sub-title">Технокряк</h2>
-                        <p class="Portfolio-text">Веб-сайт</p>
+                        <div class="progect-description">
+                            <h2 class="Portfolio-sub-title">Технокряк</h2>
+                            <p class="Portfolio-text">Веб-сайт</p>
+                        </div>
                     </li>
                     <li class="Portfolio-project">
                         <img class="Portfolio-images" src="./images-portfiio/img2.jpg"
                             alt="Постер New Orlean vs Golden Star" width="370" height="294">
-                        <h2 class="Portfolio-sub-title">Постер <span lang="en">New Orlean vs Golden Star</span> </h2>
-                        <p class="Portfolio-text">Дизайн</p>
+                        <div class="progect-description">
+                            <h2 class="Portfolio-sub-title">Постер <span lang="en">New Orlean vs Golden Star</span>
+                            </h2>
+                            <p class="Portfolio-text">Дизайн</p>
+                        </div>
                     </li>
                     <li class="Portfolio-project">
                         <img class="Portfolio-images" src="./images-portfiio/img3.jpg" alt="логотип ресторану Seafood"
                             width="370" height="294">
-                        <h2 class="Portfolio-sub-title">Ресторан Seafood</h2>
-                        <p class="Portfolio-text">Додаток</p>
+                        <div class="progect-description">
+                            <h2 class="Portfolio-sub-title">Ресторан Seafood</h2>
+                            <p class="Portfolio-text">Додаток</p>
+                        </div>
                     </li>
                     <li class="Portfolio-project">
                         <img class="Portfolio-images" src="./images-portfiio/img4.jpg" alt="Проєкт Prime" width="370"
                             height="294">
-                        <h2 class="Portfolio-sub-title">Проєкт Prime</h2>
-                        <p class="Portfolio-text">Маркетинг</p>
+                        <div class="progect-description">
+                            <h2 class="Portfolio-sub-title">Проєкт Prime</h2>
+                            <p class="Portfolio-text">Маркетинг</p>
+                        </div>
                     </li>
                     <li class="Portfolio-project">
                         <img class="Portfolio-images" src="./images-portfiio/img5.jpg" alt="Проєкт Boxes" width="370"
                             height="294">
-                        <h2 class="Portfolio-sub-title">Проєкт Boxes</h2>
-                        <p class="Portfolio-text">Додаток</p>
+                        <div class="progect-description">
+                            <h2 class="Portfolio-sub-title">Проєкт Boxes</h2>
+                            <p class="Portfolio-text">Додаток</p>
+                        </div>
                     </li>
                     <li class="Portfolio-project">
                         <img class="Portfolio-images" src="./images-portfiio/img6.jpg" alt="Inspiration has no Borders"
                             width="370" height="294">
-                        <h2 class="Portfolio-sub-title">
-                            <span lang="en">Inspiration has no Borders</span>
-                        </h2>
-                        <p class="Portfolio-text">Веб-сайт</p>
+                        <div class="progect-description">
+                            <h2 class="Portfolio-sub-title">
+                                <span lang="en">Inspiration has no Borders</span>
+                            </h2>
+                            <p class="Portfolio-text">Веб-сайт</p>
+                        </div>
                     </li>
                     <li class="Portfolio-project">
                         <img class="Portfolio-images" src="./images-portfiio/img7.jpg" alt="Видання Limited Edition"
                             width="370" height="294">
-                        <h2 class="Portfolio-sub-title">Видання <span lang="en">Limited Edition</span> </h2>
-                        <p class="Portfolio-text">Дизайн</p>
+                        <div class="progect-description">
+                            <h2 class="Portfolio-sub-title">Видання <span lang="en">Limited Edition</span> </h2>
+                            <p class="Portfolio-text">Дизайн</p>
+                        </div>
                     </li>
                     <li class="Portfolio-project">
                         <img class="Portfolio-images" src="./images-portfiio/img8.jpg" alt="Проєкт LAB" width="370"
                             height="294">
-                        <h2 class="Portfolio-sub-title">Проєкт LAB</h2>
-                        <p class="Portfolio-text">Маркетинг</p>
+                        <div class="progect-description">
+                            <h2 class="Portfolio-sub-title">Проєкт LAB</h2>
+                            <p class="Portfolio-text">Маркетинг</p>
+                        </div>
                     </li>
                     <li class="Portfolio-project">
                         <img class="Portfolio-images" src="./images-portfiio/img9.jpg" alt="Growing Business"
                             width="370" height="294">
-                        <h2 class="Portfolio-sub-title"><span lang="en">Growing Business</span></h2>
-                        <p class="Portfolio-text">Додаток</p>
+                        <div class="progect-description">
+                            <h2 class="Portfolio-sub-title"><span lang="en">Growing Business</span></h2>
+                            <p class="Portfolio-text">Додаток</p>
+                        </div>
                     </li>
                 </ul>
             </div>
