@@ -30,10 +30,10 @@ body {
     list-style: none;
 }
 
-.header-link:hover,
+/* .header-link:hover,
 .header-link:focus {
     color: #2196f3;
-}
+} */
 
 .link-text {
     text-decoration: none;
@@ -114,6 +114,8 @@ img {
     align-items: center;
 }
 
+
+
 .header-logo {
     display: block;
     font-family: var(--Raleway);
@@ -146,7 +148,7 @@ img {
     margin-right: 50px;
 }
 
-.header-link {
+/* .header-link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -159,6 +161,11 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+} */
+
+.header-link:hover,
+.header-link:focus {
+    color: #2196f3;
 }
 
 .header-contact {
