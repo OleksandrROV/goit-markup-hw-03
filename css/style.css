@@ -40,9 +40,9 @@ body {
 }
 
 *,
-*::before,
-*::after {
-    /* box-sizing: inherit; */
+::before,
+::after {
+    box-sizing: border-box;
 }
 
 p,
@@ -496,7 +496,9 @@ img {
 /*--------------------------------------- Page 2 ---------------------------*/
 
 /*----------------- Navi ---------------------------*/
-
+.footer {
+    background-color: var(--main-background);
+}
 
 .navi-list {
     list-style-type: none;
@@ -583,7 +585,7 @@ img {
     margin-bottom: 30px;
 }
 
-.portfolio-list>.we-do-photo:nth-child(3n) {
+.portfolio-list:nth-child(3n) {
     margin-right: 0;
 }
 
