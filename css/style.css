@@ -109,9 +109,7 @@ button {
 }
 
 
-.current {
-    color: #2196f3;
-}
+
 
 
 /* < !--------header-------- !> */
@@ -154,7 +152,6 @@ button {
     margin-left: 93px;
 }
 
-
 .header-item {}
 
 .header-list .header-item:not(:last-child) {
@@ -175,6 +172,10 @@ button {
 .header-link:hover,
 .header-link:focus {
     color: #2196f3;
+}
+
+.current {
+    color: #2196F3;
 }
 
 .header-contact {
