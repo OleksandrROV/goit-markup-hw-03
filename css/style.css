@@ -122,8 +122,6 @@ button {
 
 .header {
     border-bottom: 1px solid #ececec;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .header-navigation {
@@ -153,6 +151,8 @@ button {
     align-items: center;
     display: flex;
     margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header-item {}
